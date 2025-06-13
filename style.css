@@ -31,11 +31,10 @@ input[type="date"] {
   margin-bottom: 20px;
   font-size: 16px;
   background-color: #111;
-  color: #fff; /* Change text to white */
-  accent-color: #fff; /* For supporting browsers */
+  color: #fff; 
+  accent-color: #fff; 
 }
 
-/* Optional: Make calendar icon white (works on Chromium-based browsers) */
 input[type="date"]::-webkit-calendar-picker-indicator {
   filter: invert(1);
 }
